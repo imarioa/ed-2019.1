@@ -79,37 +79,81 @@ void p_Alternando(int vet[], int fase, int qtd){
 
     }
 }
-int passar_espada(int vet[], int esc, int qtd){
+int passar_espada(int vet[], int esc, int qtd) {
+
     int n_vezes = 0;
-    int pos = esc;
+    int interador = 0;
+    int pos = 0;
 
-    if(vet[esc] > 0){
-        for(int i = 0; i < vet[esc]; i++){
+    if (vet[esc] > 0) { // passa pra direita
+        interador = (esc + 1) % qtd;
 
-            if(vet[achar_vivo(vet,pos,qtd)] < 0){
-                pos = (pos + 2) % qtd;
-                i--;
-            }
-            pos = achar_vivo(vet,pos,qtd);
+    } else if (vet[esc] < 0) { // passa pra esquerda
+
+        interador = esc - 1;
+        if (interador < 0) {
+            interador = qtd - 1;
         }
-    }else if(vet[esc] < 0){
-        n_vezes = -1 * vet[esc];
 
-        for(int i = 0 ; i < n_vezes; i++){
-            if(vet[pos] > 0){
-                pos = pos - 1;
-                i++;
-                if(pos < 0){
-                    pos = qtd - 1;
+        while (n_vezes != vet[esc]) {
+            if (vet[interador] == 0) {
+                interador--;
+                if (interador < 0) {
+                    interador = qtd - 1;
                 }
+            } else {
+                pos = interador;
+                n_vezes--;
             }
-            pos = achar_vivo(vet,pos,qtd);
-
         }
+
     }
     return pos;
 }
 
+int passar_d(int vet[],int esc,int qtd){
+
+    int interador = (esc + 1) % qtd;
+    int n_vezes = 0;
+    int pos = 0;
+
+    while(n_vezes != vet[esc]){
+        if(vet[interador] == 0){
+            interador = (interador + 1) % qtd;
+        }else {
+            pos = interador;
+            interador = (interador + 1) % qtd;
+            n_vezes++;
+        }
+    }
+    return pos;
+}
+int passar_e(int vet[], int esc, int qtd){
+
+    int n_vezes = 0;
+    int pos = 0;
+    int interador = esc - 1;
+
+    if(interador < 0){
+        interador = qtd - 1;
+    }
+    while(n_vezes != vet[esc]){
+        if(vet[interador] == 0){
+            interador--;
+            if(interador < 0){
+                interador = qtd - 1;
+            }
+        }else{
+            pos = interador;
+            interador--;
+            if(interador < 0){
+                interador = qtd - 1;
+            }
+            n_vezes--;
+        }
+    }
+    return pos;
+}
 int main(){
 
    int size = 0;
@@ -121,7 +165,7 @@ int main(){
    scanf("%d", &fase);
 
    int vet[size];
-   p_Alternando(vet,fase,size);
+    p_Alternando(vet,fase,size);
 
    esc = esc - 1;
    imprime_vivos(vet,size,esc);
@@ -130,7 +174,11 @@ int main(){
 
         int vai_morrer = achar_vivo(vet,esc,size);
         vet[vai_morrer] = 0;
-        esc = passar_espada(vet,esc,size);
+        if(vet[esc] > 0){
+            esc = passar_d(vet,esc,size);
+        }else if(vet[esc] < 0){
+            esc = passar_e(vet,esc,size);
+        }
         imprime_vivos(vet,size,esc);
 
     }
