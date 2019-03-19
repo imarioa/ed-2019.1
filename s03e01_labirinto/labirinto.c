@@ -73,12 +73,12 @@ void show(int nl, int nc, char mat[nl][nc]){
 
 
 bool procurar_saida(int nl,int nc,char mat[nl][nc], bool mvis[nl][nc],int l,int c,int lsaida,int csaida){
-    if(mat[l][c] != ' '){
+    if(!(equals(nl,nc,mat,l,c,' '))){
         return false; 
-    }if(mat[l][c] == '.'){
+    }if(equals(nl,nc,mat,l,c,'.')){
 		return false;
 	}
-    mvis[l][c] = true;
+    //mvis[l][c] = true;
     mat[l][c] = '.';
     if(mat[l][c] == mat[lsaida][csaida]){
         return true;
@@ -87,24 +87,13 @@ bool procurar_saida(int nl,int nc,char mat[nl][nc], bool mvis[nl][nc],int l,int 
     for(int i = 0; i < 4; i++){
 		
 		if(procurar_saida(nl,nc,mat,mvis,l + rL[i],c + rC[i],lsaida,csaida)){
-			mat[l][c] = 'o'; 
 			return true;
 		}
 	}
+	mat[l][c] = ' ';
+	return false;
 }
-void fazer_caminho(int nl,int nc,char mat[nl][nc], bool mvis[nl][nc],int l,int c,int lsaida,int csaida){
-	
-}
-    /*for(int i = 0; i < 4; i++){
-			procurar_saida(nl,nc,mat,mvis,l + rL[i],c + rC[i],lsaida,csaida);
-		if(procurar_saida(nl,nc,mat,mvis,l + rL[i],c + rC[i],lsaida,csaida)){
-			return true;
-		}else{
-			//mat[l][c] = 'o';
-			return false;
-		}
-	}
-	return true;*/
+
 
 
 int main(int argc, char * argv[]){
@@ -129,7 +118,7 @@ int main(int argc, char * argv[]){
     printf("%d %d\n", nl, nc);
     show(nl, nc, mat);
     printf("\n");
-    procurar_saida(nl,nc,mat, vis,1,1,1,9);
+    procurar_saida(nl,nc,mat, vis,1,1,2,5);
     show(nl, nc, mat);
     
     }
