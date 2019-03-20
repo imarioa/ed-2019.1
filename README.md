@@ -61,15 +61,15 @@ Resoluções, relatórios e informações relativas às atividades semanais da d
 ### 4.1. Árvore
 
 * O que eu fiz:  
-    *
+    * Consegui fazer a atividade proposta e fiz algumas modificações na árvore.
 * Com quem ou como eu fiz:  
-    *
+    * Fiz o código sozinho, peguei o código mostrado em sala e refiz só que fiz algumas alterações.
 * O que aprendi e sei fazer:  
-    *
+    * Aprendi a fazer uma árvore de forma recursiva, nessa atividade também aprimorei minhas habilidades no quesito recursão.
 * O que ainda tenho dificuldade:  
-    *
+    * Apesar de ter comentado acima que aprimorei minhas habilidade em recursão, ainda tenho muita dificudade em recursão, principalmente em pensar de forma recursiva.
 * Quanto tempo levei para fazer a atividade:  
-    *
+    * Aproximadamente 2 horas.
 
 ### 4.1. Fractal 2
 
