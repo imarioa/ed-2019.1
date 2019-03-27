@@ -8,7 +8,7 @@ Resoluções, relatórios e informações relativas às atividades semanais da d
 # Minhas Informações 
 
 
-**Nome:** Imario Almeida Barbosa 
+**Nome:** Imario Almeida Barbosa
 **Curso:** Engenharia de Computação - 2018.1  
 **Turma:** Estrutura de Dados - 2019.1  
 **Professor:** David Sena  
@@ -33,79 +33,40 @@ Resoluções, relatórios e informações relativas às atividades semanais da d
 ## 2. Queimada
 
 * O que eu fiz:    
-    * -
+    * Fiz toda a atividade.
 * Com quem ou como eu fiz:  
-    * -
+    * Fiz o código sozinho, mas com auxílio do código exposto em sala e as vídeos aulas.
 * O que aprendi e sei fazer:  
-    * -
+    * Aprendi a verificar os vizinhos de uma matriz de forma aleatória.
 * O que ainda tenho dificuldade:  
-    *  -
+    * Ainda tenho dificuldade de entender a recursão e de aplicá-la.
 * Quanto tempo levei para fazer a atividade:  
-    * -
+    * Aproximadamente 3 horas.
 
 ## 3. Labirinto
 
 * O que eu fiz:  
-    *
+    * Fiz toda a atividade.
 * Com quem ou como eu fiz:  
-    *
+    * Fiz a atividade sozinho, desenvolvi o código de achar a saída, mas para construir o labirinto eu usei o código mostrado em sala de aula.
 * O que aprendi e sei fazer:  
-    *
+    * Eu aprendi a fazer os defines, sei fazer o código de construir o labirinto e de achar a saída e marcar com os pontos o caminho.
 * O que ainda tenho dificuldade:  
-    *
+    * Ainda tenho dificuldade em recursão. 
 * Quanto tempo levei para fazer a atividade:  
-    *
+    * Aproximadamente 3 horas.
 
 ## 4. Fractais
 
-### 4.1. Árvore
-
 * O que eu fiz:  
-    * Consegui fazer a atividade proposta e fiz algumas modificações na árvore.
+    * Consegui fazer 3 fractais e fiz algumas modificações na árvore.
 * Com quem ou como eu fiz:  
-    * Fiz o código sozinho, peguei o código mostrado em sala e refiz só que fiz algumas alterações.
+    * Fiz o código sozinho, eu usei as dicas dadas em sala para fazer os códigos.
 * O que aprendi e sei fazer:  
-    * Aprendi a fazer uma árvore de forma recursiva, nessa atividade também aprimorei minhas habilidades no quesito recursão.
+    * Aprendi a fazer desenhos(fractais) de forma recursiva usando a biblioteca xpaint.
 * O que ainda tenho dificuldade:  
-    * Apesar de ter comentado acima que aprimorei minhas habilidade em recursão, ainda tenho muita dificudade em recursão, principalmente em pensar de forma recursiva.
+    * Tenho dificuldade em pensar de forma recursiva.
 * Quanto tempo levei para fazer a atividade:  
-    * Aproximadamente 2 horas.
+    * Aproximadamente 6 horas.
 
-### 4.1. Fractal 2
 
-* O que eu fiz:  
-    *
-* Com quem ou como eu fiz:  
-    *
-* O que aprendi e sei fazer:  
-    *
-* O que ainda tenho dificuldade:  
-    *
-* Quanto tempo levei para fazer a atividade:  
-    *
-
-### 4.1. Fractal 3
-
-* O que eu fiz:  
-    *
-* Com quem ou como eu fiz:  
-    *
-* O que aprendi e sei fazer:  
-    *
-* O que ainda tenho dificuldade:  
-    *
-* Quanto tempo levei para fazer a atividade:  
-    *
-
-### 4.1. fractal 4
-
-* O que eu fiz:  
-    *
-* Com quem ou como eu fiz:  
-    *
-* O que aprendi e sei fazer:  
-    *
-* O que ainda tenho dificuldade:  
-    *
-* Quanto tempo levei para fazer a atividade:  
-    *

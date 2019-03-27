@@ -6,16 +6,17 @@ void tree(int x, int y, float ang, int tamanho, int tronco){
     int xf = x + tamanho * xm_cos(ang);
     int yf = y - tamanho * xm_sin(ang);
     
-    xs_color((XColor){xm_rand(0, 255), xm_rand(0, 255), xm_rand(0, 255)});
+    xs_color(YELLOW);
     xd_thick_line(x, y, xf, yf, tronco - 1);
     x_step("tree");
 
     tree(xf, yf, ang - 20, tamanho - xm_rand(5,10), tronco - 1);
-    if(tamanho < 25){
-		xs_color(GREEN);
-		xd_filled_circle(xf, yf, 8);}
-    tree(xf, yf, ang + 20, tamanho - xm_rand(5,10),tronco - 1);
+    tree(xf, yf, ang + 20, tamanho - xm_rand(5,10), tronco - 1); 
     
+    if(tamanho <= 8){
+		xs_color(RED);
+		xd_filled_circle(xf, yf, 8);
+    }
 		
 }
 
