@@ -27,7 +27,7 @@ struct Lista{
       cout << "[ ";
         Node *node = first;
 
-        while(node->next != first){
+        do{
             if( (node->value == esc) && (esc > 0)){
                 cout << node->value << ">" <<  " ";
                 node = node->next;
@@ -38,14 +38,7 @@ struct Lista{
                 cout << node->value << " ";
                 node = node->next;
             }
-        }
-        if( (node->value == esc) && (esc > 0)){
-                cout << node->value << ">" <<  " ";
-            }else if((node->value == esc) && (esc < 0)){
-                 cout << "<"  << node->value << " ";
-            }else{
-                cout << node->value << " ";
-            }
+        }while(node->next != first->next);
 
         cout << "]\n";
     }
@@ -128,7 +121,7 @@ int main(){
     while(aux->value != esc){
             aux = aux->next;
     }
-    cout << aux->value;
+   // cout << aux->value;
    while(lista.first != lista.first->next){
         lista.show(esc);
         lista.remove(aux->next);
