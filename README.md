@@ -1,14 +1,14 @@
 # ED-2019.1
 
-# Descrição do Repositório
-Resoluções, relatórios e informações relativas às atividades semanais da disciplina de Estrutura de Dados.
+# Descrição do Repositório  
+Resoluções, relatórios e informações relativas às atividades semanais da disciplina de Estrutura de Dados.  
 
 #
 
 # Minhas Informações 
 
 
-**Nome:** Imario Almeida Barbosa
+**Nome:** Imario Almeida Barbosa  
 **Curso:** Engenharia de Computação - 2018.1  
 **Turma:** Estrutura de Dados - 2019.1  
 **Professor:** David Sena  
@@ -68,5 +68,38 @@ Resoluções, relatórios e informações relativas às atividades semanais da d
     * Tenho dificuldade em pensar de forma recursiva.
 * Quanto tempo levei para fazer a atividade:  
     * Aproximadamente 6 horas.
+    
+
+## 5. Princesa com Lista Circular
+
+* O que eu fiz:  
+    * Consegui fazer toda a atividade proposta.
+* Com quem ou como eu fiz:  
+    * Fiz o código sozinho, eu fui olhando as implementações de lista mostradas em sala e fui adaptando para o problema
+    proposto.  
+* O que aprendi e sei fazer:  
+    * Aprendi a percorrer lista de forma circular e fazer operações de inserção e remoção.
+* O que ainda tenho dificuldade:  
+    * Ainda tenho dificuldade na forma de percorrer a lista, detalhe, consegui percorrer a lista, mas não foi de um jeito
+    tão elegante.
+* Quanto tempo levei para fazer a atividade:  
+    * Aproximadamente 4 horas.
+    
+
+## 6. Ordenação(Insertion, Selection, Bubble)
+
+* O que eu fiz:  
+    * Consegui fazer 3 os três algoritmos.
+* Com quem ou como eu fiz:  
+    * Fiz o código sozinho, mas fui me orientando em sites na internet.
+* O que aprendi e sei fazer:  
+    * Aprendi a fazer alguns algoritmos de ordenação.
+* O que ainda tenho dificuldade:  
+    * Tenho dificuldade na parte de indexação das estruturas de repetição.
+* Quanto tempo levei para fazer a atividade:  
+    * Aproximadamente 3 horas.
+    
+    
+
 
 
