@@ -1,4 +1,4 @@
-![](dale.jpeg){:height="316px" width="287px"}
+![](dale.jpeg)
 
 # ED-2019.1
 
