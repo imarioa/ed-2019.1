@@ -99,6 +99,19 @@ Resoluções, relatórios e informações relativas às atividades semanais da d
 * Quanto tempo levei para fazer a atividade:  
     * Aproximadamente 3 horas.
     
+## 7. Banco
+
+* O que eu fiz:  
+    * Consegui fazer tudo.
+* Com quem ou como eu fiz:  
+    * Fiz o código sozinho, mas pedi ajuda a amigos que já tinham feito.
+* O que aprendi e sei fazer:  
+    * Aprimorei meus conhecimentos em stringstream.
+* O que ainda tenho dificuldade:  
+    * Tenho um pouco de dificuldade no uso de ponteiros e no próprio C++
+* Quanto tempo levei para fazer a atividade:  
+    * Aproximadamente 4 horas.
+    
     
 
 
