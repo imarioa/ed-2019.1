@@ -1,4 +1,4 @@
-![](dale.jpeg)
+
 
 # ED-2019.1
 
@@ -6,6 +6,8 @@
 Resoluções, relatórios e informações relativas às atividades semanais da disciplina de Estrutura de Dados.  
 
 #
+
+![](dale.jpeg)
 
 # Minhas Informações 
 
