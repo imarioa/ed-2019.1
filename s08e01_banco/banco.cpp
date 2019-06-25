@@ -149,7 +149,7 @@ int main() {
     //------Banco fechou-------//
 
     while(true){
-        bool still_have = false;
+        bool existe = false;
         if(bradesco->fila_entrada.size() > 0){
             bradesco->tic();
             continue;
@@ -157,11 +157,11 @@ int main() {
         else{
             for(int i = 0; i < (int) bradesco->caixas.size(); i++){
                 if(bradesco->caixas[i] != nullptr){
-                    still_have = true;
+                    existe = true;
                 }
-            }
+            }       
         }
-        if(still_have){
+        if(existe){
             bradesco->tic();
         }
         else
@@ -174,6 +174,6 @@ int main() {
 
     cout << "received: " << bradesco->docs_ad << endl;
     cout << "lost: " << bradesco->docs_pe << endl;
-    cout << "tics: " << tics << "\n";
+    cout << "tics: " << tics << endl;
 
 }

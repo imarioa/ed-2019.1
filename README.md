@@ -1,3 +1,5 @@
+![](dale.jpeg)
+
 # ED-2019.1
 
 # Descrição do Repositório  
@@ -111,6 +113,21 @@ Resoluções, relatórios e informações relativas às atividades semanais da d
     * Tenho um pouco de dificuldade no uso de ponteiros e no próprio C++
 * Quanto tempo levei para fazer a atividade:  
     * Aproximadamente 4 horas.
+    
+
+
+## 8. HackerRank
+
+* O que eu fiz:  
+    * Consegui a maioria, menos o TopView
+* Com quem ou como eu fiz:  
+    * Fiz os códigos sozinho, mas em alguns problemas eu me orientei por sites na internet.
+* O que aprendi e sei fazer:  
+    * Aprimorei meus conhecimentos em árvores binárias e aprendi e desenvolver novos algoritmos.
+* O que ainda tenho dificuldade:  
+    * Tenho um pouco de dificuldade na parte recursiva do problema.
+* Quanto tempo levei para fazer a atividade:  
+    * Aproximadamente 3 horas.
     
     
 
